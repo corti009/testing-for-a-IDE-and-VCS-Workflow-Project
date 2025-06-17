@@ -4,11 +4,13 @@ using namespace std;
 
 int main()
 {
-  char Carlan, Johnathan, Ortiz;
+  string name, adress, phoneNumber;
   // Store your initials in these variables
-  Carlan = 'C';
-   Johnathan = 'J';
-   Ortiz = 'O';
-  cout << Carlan << Johnathan << Ortiz;
+  name = "Carlan Ortiz";
+   adress = "2776 Butternut Dr";
+   phoneNumber = "3057889090";
+  cout << name << endl;
+  cout << adress << endl;
+  cout << phoneNumber << endl;
   return 0;
 }
